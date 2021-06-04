@@ -1,0 +1,580 @@
+[
+  {
+    "id": "1",
+    "slug": "north-america",
+    "continent": "América do Norte",
+    "description": "",
+    "info": {
+      "countries": 23,
+      "languages": 60,
+      "citiesInWorldTop100": 10
+    },
+    "citiesInWorldTop100": [
+      {
+        "city": "Cancún",
+        "country": "México",
+        "flagUrl": ""
+      },
+      {
+        "city": "Honolulu",
+        "country": "Estados Unidos",
+        "flagUrl": ""
+      },
+      {
+        "city": "Las Vegas",
+        "country": "Estados Unidos",
+        "flagUrl": ""
+      },
+      {
+        "city": "Los Angeles",
+        "country": "Estados Unidos",
+        "flagUrl": ""
+      },
+      {
+        "city": "Miami",
+        "country": "Estados Unidos",
+        "flagUrl": ""
+      },
+      {
+        "city": "Nova Yorque",
+        "country": "Estados Unidos",
+        "flagUrl": ""
+      },
+      {
+        "city": "Orlando",
+        "country": "Estados Unidos",
+        "flagUrl": ""
+      },
+      {
+        "city": "São Francisco",
+        "country": "Estados Unidos",
+        "flagUrl": ""
+      },
+      {
+        "city": "Toronto",
+        "country": "Canadá",
+        "flagUrl": ""
+      },
+      {
+        "city": "Vancouver",
+        "country": "Canadá",
+        "flagUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "south-america",
+    "continent": "América do Sul",
+    "description": "A América do Sul é o continente perfeito para um mochilão ou tour de férias. A proximidade de seus países e facilidade de locomoção atraem muitos viajantes, basta você escolher qual destino mais tem a ver com sua vibe e se jogar. Prepare-se para uma imersão em muita cultura, lindas paisagens e muita diversão.",
+    "info": {
+      "countries": 13,
+      "languages": 60,
+      "citiesInWorldTop100": 3
+    },
+    "citiesInWorldTop100": [
+      {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "flagUrl": ""
+      },
+      {
+        "city": "Lima",
+        "country": "Peru",
+        "flagUrl": ""
+      },
+      {
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "flagUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "asia",
+    "continent": "Ásia",
+    "description": "A Ásia é o maior continente do mundo tanto em tamanho quanto em população e, por causa da grande diversidade de países e culturas, esse é o destino certo para quem quer conhecer lugares realmente novos e diferentes. Não à toa, o turismo na Ásia vem sendo cada vez mais explorado, o que torna o local uma ótima opção para passar as férias.",
+    "info": {
+      "countries": 48,
+      "languages": 60,
+      "citiesInWorldTop100": 49
+    },
+    "citiesInWorldTop100": [
+      {
+        "city": "Abu Dhabi",
+        "country": "Emirados Árabes",
+        "flag": ""
+      },
+      {
+        "city": "Agra",
+        "country": "Índia",
+        "flag": ""
+      },
+      {
+        "city": "Bangalore",
+        "country": "Índia",
+        "flag": ""
+      },
+      {
+        "city": "Bangkok",
+        "country": "Tailândia",
+        "flag": ""
+      },
+      {
+        "city": "Batam",
+        "country": "",
+        "flag": ""
+      },
+      {
+        "city": "Beijing",
+        "country": "China",
+        "flag": ""
+      },
+      {
+        "city": "Cebu",
+        "country": "Filipinas",
+        "flag": ""
+      },
+      {
+        "city": "Chennai",
+        "country": "Índia",
+        "flag": ""
+      },
+      {
+        "city": "Chiang Mai",
+        "country": "Tailândia",
+        "flag": ""
+      },
+      {
+        "city": "Chiba",
+        "country": "Japão",
+        "flag": ""
+      },
+      {
+        "city": "Da Nang",
+        "country": "Tailândia",
+        "flag": ""
+      },
+      {
+        "city": "Dammam",
+        "country": "Arábia Saudita",
+        "flag": ""
+      },
+      {
+        "city": "Delhi",
+        "country": "Índia",
+        "flag": ""
+      },
+      {
+        "city": "Denpasar",
+        "country": "",
+        "flag": ""
+      },
+      {
+        "city": "Dubai",
+        "country": "Emirados Árabes",
+        "flag": ""
+      },
+      {
+        "city": "Fukuoka",
+        "country": "Japão",
+        "flag": ""
+      },
+      {
+        "city": "Guangzhou",
+        "country": "China",
+        "flag": ""
+      },
+      {
+        "city": "Guilin",
+        "country": "China",
+        "flag": ""
+      },
+      {
+        "city": "Ha Long",
+        "country": "Vietnã",
+        "flag": ""
+      },
+      {
+        "city": "Ha Noi",
+        "country": "Vietnã",
+        "flag": ""
+      },
+      {
+        "city": "Ho Chi Minh City",
+        "country": "Vietnã",
+        "flag": ""
+      },
+      {
+        "city": "Hong Kong",
+        "country": "China",
+        "flag": ""
+      },
+      {
+        "city": "Jaipur",
+        "country": "Índia",
+        "flag": ""
+      },
+      {
+        "city": "Jakarta",
+        "country": "",
+        "flag": ""
+      },
+      {
+        "city": "Jeju",
+        "country": "Coréia do Sul",
+        "flag": ""
+      },
+      {
+        "city": "Jerusalem",
+        "country": "Israel",
+        "flag": ""
+      },
+      {
+        "city": "Johor Bahru",
+        "country": "Malásia",
+        "flag": ""
+      },
+      {
+        "city": "Kolkatta",
+        "country": "Índia",
+        "flag": ""
+      },
+      {
+        "city": "Krabi",
+        "country": "Tailândia",
+        "flag": ""
+      },
+      {
+        "city": "Kuala Lumpur",
+        "country": "Malásia",
+        "flag": ""
+      },
+      {
+        "city": "Kyoto",
+        "country": "Japão",
+        "flag": ""
+      },
+      {
+        "city": "Macau",
+        "country": "China",
+        "flag": ""
+      },
+      {
+        "city": "Marrakech",
+        "country": "Marrocos",
+        "flag": ""
+      },
+      {
+        "city": "Mecca",
+        "country": "Arábia Saudita",
+        "flag": ""
+      },
+      {
+        "city": "Medina",
+        "country": "Arábia Saudita",
+        "flag": ""
+      },
+      {
+        "city": "Mumbai",
+        "country": "Índia",
+        "flag": ""
+      },
+      {
+        "city": "Osaka",
+        "country": "Japão",
+        "flag": ""
+      },
+      {
+        "city": "Pattaya",
+        "country": "Tailândia",
+        "flag": ""
+      },
+      {
+        "city": "Penang Island",
+        "country": "Malásia",
+        "flag": ""
+      },
+      {
+        "city": "Phuket",
+        "country": "Tailândia",
+        "flag": ""
+      },
+      {
+        "city": "Riyadh",
+        "country": "Arábia Saudita",
+        "flag": ""
+      },
+      {
+        "city": "Seoul",
+        "country": "Coréia do Sul",
+        "flag": ""
+      },
+      {
+        "city": "Shanghai",
+        "country": "China",
+        "flag": ""
+      },
+      {
+        "city": "Shenzhen",
+        "country": "China",
+        "flag": ""
+      },
+      {
+        "city": "Singapore",
+        "country": "Singapura",
+        "flag": ""
+      },
+      {
+        "city": "Taipei",
+        "country": "Taiwan",
+        "flag": ""
+      },
+      {
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "flag": ""
+      },
+      {
+        "city": "Tokyo",
+        "country": "Japão",
+        "flag": ""
+      },
+      {
+        "city": "Zhuhai",
+        "country": "China",
+        "flag": ""
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "africa",
+    "continent": "África",
+    "description": "Um dos continentes mais belos, históricos e culturalmente ricos. Afinal, são cerca de 30 quilômetros quadrados, cobrindo 20,3% da área total do planeta e com 54 países independentes. Proporcionando uma série de atividades, em meio a natureza exuberante e a uma fauna incomparável, o continente africano merece um espaço especial na sua próxima viagem.",
+    "info": {
+      "countries": 54,
+      "languages": 60,
+      "citiesInWorldTop100": 3
+    },
+    "citiesInWorldTop100": [
+      {
+        "city": "Cairo",
+        "country": "Egito",
+        "flagUrl": ""
+      },
+      {
+        "city": "Hurgada",
+        "country": "Egito",
+        "flagUrl": ""
+      },
+      {
+        "city": "Johanesburgo",
+        "country": "África do Sul",
+        "flagUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "europe",
+    "continent": "Europa",
+    "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+    "info": {
+      "countries": 50,
+      "languages": 60,
+      "citiesInWorldTop100": 32
+    },
+    "citiesInWorldTop100": [
+      {
+        "city": "Amsterdã",
+        "country": "Holanda",
+        "flagUrl": ""
+      },
+      {
+        "city": "Antalya",
+        "country": "Turquia",
+        "flagUrl": ""
+      },
+      {
+        "city": "Atenas",
+        "country": "Grécia",
+        "flagUrl": ""
+      },
+      {
+        "city": "Barcelona",
+        "country": "Espanha",
+        "flagUrl": ""
+      },
+      {
+        "city": "Berlim",
+        "country": "Alemanha",
+        "flagUrl": ""
+      },
+      {
+        "city": "Bruxelas",
+        "country": "Bélgica",
+        "flagUrl": ""
+      },
+      {
+        "city": "Budapeste",
+        "country": "Hungria",
+        "flagUrl": ""
+      },
+      {
+        "city": "Copenhagem",
+        "country": "Dinamarca",
+        "flagUrl": ""
+      },
+      {
+        "city": "Dublin",
+        "country": "Irlanda",
+        "flagUrl": ""
+      },
+      {
+        "city": "Florença",
+        "country": "Itália",
+        "flagUrl": ""
+      },
+      {
+        "city": "Frankfurt",
+        "country": "Alemanha",
+        "flagUrl": ""
+      },
+      {
+        "city": "Heraklion",
+        "country": "Grécia",
+        "flagUrl": ""
+      },
+      {
+        "city": "Istambul",
+        "country": "Turquia",
+        "flagUrl": ""
+      },
+      {
+        "city": "Krakóvia",
+        "country": "Polonha",
+        "flagUrl": ""
+      },
+      {
+        "city": "Lisboa",
+        "country": "Portugal",
+        "flagUrl": ""
+      },
+      {
+        "city": "Londres",
+        "country": "Reino Unido",
+        "flagUrl": ""
+      },
+      {
+        "city": "Madri",
+        "country": "Espanha",
+        "flagUrl": ""
+      },
+      {
+        "city": "Milão",
+        "country": "Itália",
+        "flagUrl": ""
+      },
+      {
+        "city": "Moscow",
+        "country": "Rússia",
+        "flagUrl": ""
+      },
+      {
+        "city": "Mugla",
+        "country": "Turquia",
+        "flagUrl": ""
+      },
+      {
+        "city": "Munique",
+        "country": "Alemanha",
+        "flagUrl": ""
+      },
+      {
+        "city": "Nice",
+        "country": "França",
+        "flagUrl": ""
+      },
+      {
+        "city": "Paris",
+        "country": "França",
+        "flagUrl": ""
+      },
+      {
+        "city": "Porto",
+        "country": "Porgutal",
+        "flagUrl": ""
+      },
+      {
+        "city": "Praga",
+        "country": "República Tcheca",
+        "flagUrl": ""
+      },
+      {
+        "city": "Rhodes",
+        "country": "Grécia",
+        "flagUrl": ""
+      },
+      {
+        "city": "Roma",
+        "country": "Itália",
+        "flagUrl": ""
+      },
+      {
+        "city": "São Petersburgo",
+        "country": "Rússia",
+        "flagUrl": ""
+      },
+      {
+        "city": "Estocolmo",
+        "country": "Suécia",
+        "flagUrl": ""
+      },
+      {
+        "city": "Veneza",
+        "country": "Itália",
+        "flagUrl": ""
+      },
+      {
+        "city": "Vienna",
+        "country": "Áustria",
+        "flagUrl": ""
+      },
+      {
+        "city": "Varsóvia",
+        "country": "Polonha",
+        "flagUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "oceania",
+    "continent": "Oceania",
+    "description": "Localizada entre os oceanos Índico e Pacífico, a Oceania conta com paisagens exóticas, povo acolhedor e pontos turísticos bem característicos desta região do planeta. O continente é composto por várias ilhas e arquipélagos do oceano pacífico, totalizando 14 países. Desse total, os que mais se destacam são a Austrália e a Nova Zelândia, ambos excelentes destinos para quem deseja se aventurar por um local totalmente diferente.",
+    "info": {
+      "countries": 14,
+      "languages": 60,
+      "citiesInWorldTop100": 27
+    },
+    "citiesInWorldTop100": [
+      {
+        "city": "Auckland",
+        "country": "Nova Zelândia",
+        "flagUrl": ""
+      },
+      {
+        "city": "Melbourne",
+        "country": "Austrália",
+        "flagUrl": ""
+      },
+      {
+        "city": "Sydney",
+        "country": "Austrália",
+        "flagUrl": ""
+      }
+    ]
+  }
+]
