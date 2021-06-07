@@ -1,6 +1,6 @@
 // Sample card from Airbnb
 
-import { Box, Image, HStack, VStack, Text } from "@chakra-ui/react"
+import { Box, Image, HStack, VStack, Text, Flex } from "@chakra-ui/react"
 
 interface CityCardProps {
   cityInfo: {
@@ -40,6 +40,7 @@ export function CityCard({ cityInfo }: CityCardProps) {
           flex={1}
           alignItems="flex-start"
           p="1.25rem"
+          minH="100px"
         >
           <Text
             lineHeight="25px"

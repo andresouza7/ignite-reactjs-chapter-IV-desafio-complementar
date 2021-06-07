@@ -15,9 +15,9 @@ export function Carousel() {
 
   return (
     <Box
-      h="28.125rem"
-      pr="100px"
-      pl="100px">
+      h={["15.625rem", "20rem", "28.125rem"]}
+      px={["0", "0", "100px"]}
+    >
       <Swiper
         slidesPerView={1}
         spaceBetween={30}

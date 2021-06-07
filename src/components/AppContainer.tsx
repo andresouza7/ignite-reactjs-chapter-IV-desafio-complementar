@@ -8,7 +8,9 @@ interface AppContainerProps {
 export function AppContainer({ children }: AppContainerProps) {
 
   return (
-    <Container maxW="1440px" margin="auto" bg="white" pb="40px">
+    <Container maxW="1440px" bg="white" px="0"
+      pb={["20px", "30px", "60px"]}
+    >
       {children}
     </Container>
   )

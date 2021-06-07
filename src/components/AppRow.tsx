@@ -1,4 +1,4 @@
-import { Container } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { ReactNode } from "react";
 
 interface WrapperProps {
@@ -6,14 +6,13 @@ interface WrapperProps {
 }
 
 export function AppRow({ children }: WrapperProps) {
-
   return (
-    <Container
-      ml="140px"
-      mr="140px"
-      height="100%"
+    <Box
+      h="100%"
+      w="100%"
+      px={["1rem", "1rem", "140px"]}
     >
       {children}
-    </Container>
+    </Box>
   )
 }

@@ -7,11 +7,13 @@ interface InfoCardProps {
 
 export function InfoCard({ title, value }: InfoCardProps) {
   return (
-    <VStack>
+    <VStack
+      align={["flex-start", "center"]}
+    >
       <Text
         m="0"
         fontWeight="600"
-        fontSize="3rem"
+        fontSize={["1.125rem", "1.5rem", "3rem"]}
         color="#FFBA08"
       >
         {value}
@@ -20,7 +22,7 @@ export function InfoCard({ title, value }: InfoCardProps) {
         m="0 !important"
         lineHeight="36px"
         fontWeight="600"
-        fontSize="1.5rem"
+        fontSize={["1.125rem", "1.125rem", "1.5rem"]}
         color="#47585B"
       >
         {title}

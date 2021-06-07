@@ -1,5 +1,5 @@
 import { useRouter } from "next/router"
-import { HStack, Grid, GridItem, Text, Flex, Heading, Box, VStack } from "@chakra-ui/react"
+import { HStack, Grid, GridItem, Text, Flex, Heading, Box, Stack } from "@chakra-ui/react"
 import { AppContainer } from "../../components/AppContainer"
 import { InfoCard } from "../../components/continent/InfoCard"
 import { CityCard } from "../../components/continent/CityCard"
@@ -43,18 +43,18 @@ export default function Continent() {
           <Box
             backgroundImage="/images/continent_page_background/europe.jpg"
             backgroundSize="cover"
-            height="500px"
-            pb="4rem"
-            mb="5rem"
+            h={["200px", "300px", "500px"]}
+            pb={["0", "0", "4rem"]}
           >
             <AppRow>
               <Flex
                 h="100%"
-                alignItems="flex-end"
+                align={["center", "flex-end"]}
+                justify={["center", "flex-start"]}
               >
                 <Text
                   lineHeight="72px"
-                  fontSize="3rem"
+                  fontSize={["1.75rem", "2rem", "3rem"]}
                   fontWeight="600"
                   color="white"
                   m="0"
@@ -66,47 +66,50 @@ export default function Continent() {
           </Box>
 
           <Box
-            mb="3rem"
+            mb={["2rem", "2rem", "3rem"]}
           >
             <AppRow>
-              <HStack
-                spacing="4rem"
+              <Stack
+                spacing={["1rem", "1rem", "4rem"]}
+                direction={["column", "column", "column", "column", "row"]}
+                mt={["1.5rem", "1.5rem", "4rem"]}
               >
                 <Text
                   flex={1}
-                  lineHeight="36px"
+                  lineHeight={["25px", "25px", "36px"]}
                   fontWeight="400"
-                  fontSize="1.5rem"
+                  fontSize={["1rem", "1rem", "1.5rem"]}
                 >
                   {content.description}
                 </Text>
 
                 <Flex
                   flex={1}
-                  justify="space-between"
+                  justify={["space-between", "space-evenly", "space-evenly", "space-evenly", "space-between"]}
                 >
                   <InfoCard title="países" value={content.info?.countries} />
                   <InfoCard title="línguas" value={content.info?.languages} />
                   <InfoCard title="cidades +100" value={content.info?.citiesInWorldTop100} />
                 </Flex>
-              </HStack>
+              </Stack>
             </AppRow>
           </Box>
 
           <AppRow>
             <Heading
-              fontSize="2.25rem"
+              fontSize={["1.5rem", "1.5rem", "2.25rem"]}
               fontWeight="500"
+              mb="1.25rem"
             >
               Cidades +100
           </Heading>
 
             <Grid
-              gridTemplateColumns="repeat(4, 1fr)"
+              gridTemplateColumns={["1fr", "1fr", "repeat(2, 1fr)", "repeat(2, 1fr)", "repeat(4, 1fr)"]}
               gridGap="2rem"
             >
               {content?.citiesInWorldTop100?.map(cityInfo =>
-                <GridItem key={cityInfo.city}>
+                <GridItem key={cityInfo.city} m="auto">
                   <CityCard cityInfo={cityInfo} />
                 </GridItem>
               )}

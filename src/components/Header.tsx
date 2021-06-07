@@ -1,4 +1,4 @@
-import { Flex, Image } from "@chakra-ui/react"
+import { Flex, Image, useMediaQuery } from "@chakra-ui/react"
 import { AppRow } from "./AppRow"
 import Link from "next/link"
 
@@ -7,15 +7,16 @@ interface HeaderProps {
 }
 
 export function Header({ backButtonActive = false }: HeaderProps) {
+  const [isLargeScreen] = useMediaQuery("(min-width: 1280px)")
 
   return (
     <AppRow>
       <Flex
         position="relative"
+        w="100%"
         justify="center"
         align="center"
-        pt="27px"
-        pb="27px"
+        py={["15px", "15px", "27px"]}
       >
         {backButtonActive && (
           <Link href="/">
@@ -28,7 +29,11 @@ export function Header({ backButtonActive = false }: HeaderProps) {
             />
           </Link>
         )}
-        <Image src="/images/Logo.png" width="184px" height="46px" />
+        <Image
+          src="/images/Logo.png"
+          minW={["92px", "92px", "184px"]}
+          height={["24px", "24px", "46px"]}
+        />
       </Flex>
     </AppRow>
   )
